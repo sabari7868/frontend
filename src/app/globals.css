@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+  background-color: #5E14A5;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  background-color: #5E14A5;
+}
+
+.css-144nnsf-MuiButtonBase-root-MuiListItemButton-root {
+  background-color: #5E14A5;
+}
+
+.css-zxdg2z{
+  padding: 30px !important;
+}
+.css-h4y409-MuiList-root{
+  padding-top: 0px !important;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.datepicker  .MuiInputBase-input{
+  padding: 8.5px 14px !important;
+}
